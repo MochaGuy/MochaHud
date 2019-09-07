@@ -18,12 +18,10 @@
 		"enabled" "1"
 		"xpos"	"500"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"272"	[$WIN32]
+		"ypos"	"r143"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"wide"	"250"
+		"tall"	"120"
 	}
 	
 	HudObjectiveStatus
@@ -32,7 +30,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"-400"
+		"ypos"	"-25"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -76,12 +74,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
+		"xpos"			"c-70"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
+		"ypos"			"r190"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -245,8 +241,6 @@
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]

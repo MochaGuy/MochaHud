@@ -3006,6 +3006,9 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//Gravity Regular Fonts
+		
 		GravityRegular12
 		{
 			"1"
@@ -3033,16 +3036,25 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		GravityRegular30
+		GravityRegular20
 		{
 			"1"
 			{
 				"name"		"Gravity"
-				"tall"		"30"
+				"tall"		"20"
 				"antialias" "1"
 			}
 		}
-		GravityRegular36
+		GravityRegular24
+		{
+			"1"
+			{
+				"name"		"Gravity"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"GravityRegular36"
 		{
 			"1"
 			{
@@ -3050,10 +3062,55 @@ Scheme
 				"tall"		"36"
 				"antialias" "1"
 			}
+			
+		}
+		"GravityRegular42"
+		{
+			"1"
+			{
+				"name"		"Gravity"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		"GravityBold24"
+		{
+			"1"
+			{
+				"name"		"GravityBold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		GravityBold16
+		{
+			"1"
+			{
+				"name"		"GravityBold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"GravityBold36"
+		{
+			"1"
+			{
+				"name"		"GravityBold"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"GravityBold42"
+		{
+			"1"
+			{
+				"name"		"Gravity Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
 		}
 	}
-	
-	// These are the fonts I am using in my custom HUD
 	
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5805,18 +5862,23 @@ Scheme
 		}			
 		"7"
 		{
-			"font" "resources/fonts/Gravity-Bold.otf"
-			"name" "Gravity-Bold"
+			"font" "resource/fonts/Gravity-Bold.otf"
+			"name" "Gravity Bold"
 		}
 		"8"
 		{
-			"font" "resources/fonts/Gravity-Book.otf"
-			"name" "Gravity Book"
+			"font" "resource/fonts/Gravity-Book.otf"
+			"name" "GravityBook"
 		}
 		"9"
 		{
-			"font" "resources/fonts/Gravity-Regular.otf"
-			"name" "Gravity"
+			"font" "resource/fonts/Timeless.ttf"
+			"name" "Timeless-Normal"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Timeless-Bold.ttf"
+			"name" "Timeless-Bold"
 		}
 	}
 }
